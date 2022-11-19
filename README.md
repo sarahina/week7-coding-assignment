@@ -1,1 +1,1 @@
-# week7-coding-assignment
+Week 7: Coding Assignment
