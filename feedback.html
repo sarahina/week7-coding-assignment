@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+  </head>
+
+  <body>
+  <!-- I used unordered list for this navigation bar that I created with links to navigate other pages -->
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./feedback.html">Feedback</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    <br />
+    <hr />
+    <div>
+      <h1>Feedback</h1>
+      <!-- Created a form to submit a feedback. It has a label, input, text area, radio button, fieldset and legend -->
+      <form action="">
+        <fieldset>
+          <legend>Your Feedback:</legend>
+          <br />
+          <label for="age">Age:</label>
+          <input
+            type="text"
+            id="age"
+            name="age"
+            size="15"
+            maxlength="30"
+          /><br /><br />
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="f" /> Female
+          <input type="radio" name="gender" value="m" /> Male <br /><br />
+
+          <p>Please select your favorite cake flavor:</p>
+          <input type="radio" name="flavor" value="chocolatecake" /> Chocolate
+          Cake
+          <input type="radio" name="flavor" value="cheesecake" /> Cheesecake
+          <input type="radio" name="flavor" value="redvelvetcake" /> Red Velvet
+          Cake <input type="radio" name="flavor" value="carrotcake" /> Carrot
+          Cake <br /><br /><br />
+
+          <p>Let us know what you think!</p>
+          <textarea name="comments" cols="60" rows="6"></textarea><br /><br />
+          <input type="submit" value="Submit" /><br /><br />
+        </fieldset>
+      </form>
+      <br />
+    </div>
+  </body>
+</html>
